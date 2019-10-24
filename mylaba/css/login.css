@@ -1,0 +1,114 @@
+	body{
+		background-image: url("img/bg.jpg");
+		font-family:Comic Sans MS, Comic Sans, cursive;
+	  font-size: 1em;
+	}
+	h2{
+	  text-align: center;
+	  color: #F1F2F4;
+	  text-shadow: 0 1px 0 #000;
+	}
+	a{
+	  text-decoration: none; color: #EC5C93; 
+	}
+	a2{
+		text-decoration: none; color: #EC5C93;
+	}
+
+
+	.login{
+		background:url(img/tablebg.jpg) ;
+		border-bottom: 2px solid #cc9ec9;
+		border-radius: 5px;
+		text-align: center;
+		color: #290050;
+		text-shadow: 0 1px 0 #f6d1ff;
+		max-width: 300px;
+		margin: 0 auto;
+		padding: 15px 40px 20px 40px;
+		box-shadow: 0 0 100px #290050;
+	}
+
+	h1{
+		color: #290050;
+		font-family:Comic Sans MS, Comic Sans, cursive;
+		font-size: 1.7em;
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.h_start{
+		color: #330844;
+		font-family:Comic Sans MS, Comic Sans, cursive;
+		font-size: 2.9em;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	p{
+		font-family:Comic Sans MS, Comic Sans, cursive;
+		font-weight: 300;
+		color: #570b5b;
+		margin-top: 5px;
+		margin-bottom: 30px;
+	}
+	.input{
+		text-align: right;
+		background: #fffcff;
+		overflow: hidden;
+		box-shadow: inset 0 0 3px #b235f4;
+		border-bottom: 1px solid #FFF;
+	}
+	input{
+		width: 260px;
+		background: transparent;
+		border: 0;
+		line-height: 3.6em;
+		box-sizing: border-box;
+		color: #330844;
+		font-family:'Open Sans', Arial, sans-serif;
+		text-shadow: 0 1px 0 #FFF;
+	}
+	input:focus{
+		outline: none;
+	}
+	.blockinput{
+		border-bottom: 1px solid #330844;
+		border-top: 1px solid #FFFFFF;
+	}
+	.blockinput:first-child{
+		border-top: 0;
+	}
+	.blockinput:last-child{
+		border-bottom: 0;
+	}
+	.blockinput i{
+		padding-right: 10px;
+		color: #330844;
+		text-shadow: 0 1px 0 #FFF;
+	}
+	::-webkit-input-placeholder {
+		color: #714d7a;
+		font-family:Comic Sans MS, Comic Sans, cursive;
+		text-shadow: 0 1px 0 #FFF;
+	}
+	button{
+		font-family:Comic Sans MS, Comic Sans, cursive;
+		margin-top: 20px;
+		display: block;
+		width: 100%;
+		line-height: 2em;
+		background: rgb(204, 158, 201);
+		cursor: pointer;
+		border-top: 1px solid #c76ad4;
+		box-shadow: 0 0 0 1px #dfabe7, 0 2px 2px #330844;
+		color: #FFFFFF;
+		border-width:0;
+		font-size: 1.5em;
+		text-shadow: 0 1px 2px #290050;
+	}
+	button:hover{
+		background: linear-gradient(to bottom, rgb(223, 171, 231) 0%, rgb(178, 53, 244) 100%);
+	}
+	button:active{
+		box-shadow: inset 0 0 5px #000;
+		background: linear-gradient(to bottom, rgb(246, 209, 255) 0%, rgb(87, 11, 91) 100%);
+	}
